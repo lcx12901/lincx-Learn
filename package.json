@@ -1,35 +1,39 @@
 {
-  "name": "lincx-learn",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
-  },
-  "dependencies": {
-    "ant-design-vue": "^2.2.8",
-    "pinia": "^2.0.2",
-    "vue": "^3.2.16"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.3.1",
-    "@typescript-eslint/parser": "^5.3.1",
-    "@vitejs/plugin-vue": "^1.9.3",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "@vue/eslint-config-typescript": "^9.0.1",
-    "autoprefixer": "^10.4.0",
-    "eslint": "^8.2.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "postcss": "^8.3.11",
-    "prettier": "^2.4.1",
-    "sass": "^1.42.1",
-    "tailwindcss": "^2.2.19",
-    "typescript": "^4.4.3",
-    "unplugin-vue-components": "^0.17.2",
-    "vite": "^2.6.4",
-    "vite-plugin-svg-icons": "^1.0.5",
-    "vue-tsc": "^0.3.0"
-  }
+	"name": "lincx-learn",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"ant-design-vue": "^2.2.8",
+		"pinia": "^2.0.2",
+		"stylelint": "^14.0.0-0",
+		"stylelint-config-standard": "^23.0.0-0",
+		"stylelint-scss": "^4.0.0-2",
+		"vue": "^3.2.16"
+	},
+	"devDependencies": {
+		"@tailwindcss/postcss7-compat": "^2.2.17",
+		"@typescript-eslint/eslint-plugin": "^5.3.1",
+		"@typescript-eslint/parser": "^5.3.1",
+		"@vitejs/plugin-vue": "^1.9.3",
+		"@vue/eslint-config-prettier": "^6.0.0",
+		"@vue/eslint-config-typescript": "^9.0.1",
+		"autoprefixer": "^9.8.8",
+		"eslint": "^8.2.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-vue": "^8.0.3",
+		"postcss": "^7.0.39",
+		"prettier": "^2.4.1",
+		"sass": "^1.42.1",
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+		"typescript": "^4.4.3",
+		"unplugin-vue-components": "^0.17.2",
+		"vite": "^2.6.4",
+		"vite-plugin-svg-icons": "^1.0.5",
+		"vue-tsc": "^0.3.0"
+	}
 }
