@@ -26,5 +26,12 @@ export default defineConfig({
 		alias: {
 			'@': resolve('./src')
 		}
+	},
+	css: {
+		preprocessorOptions: {
+			less: {
+				javascriptEnabled: true
+			}
+		}
 	}
 });

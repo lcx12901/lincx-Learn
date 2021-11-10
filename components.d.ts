@@ -4,6 +4,7 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AButton: typeof import('ant-design-vue/es')['Button']
     SvgIcon: typeof import('./src/components/SvgIcon.vue')['default']
   }
 }
